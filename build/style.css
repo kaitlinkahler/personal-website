@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+#landing, #action {
+    background-color: #e3d3bc;
+}
+
+#portrait-parent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#portrait-photo {
+    height: 80%;
+    width: 100%;
+    background-image: url('./media/portrait.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+canvas{
+    background-color: #e3d3bc;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .landing-container {
+        flex-grow: 0;
+    } 
+}
+
+.landing-text * {
+    color: #fff;
+
+}
+
+.landing-text .subtitle {
+    font-weight: bold;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.landing-title{
+    font-family: 'Fugaz One';
+    font-size: min(15vh, 15vw);
+    line-height: 1.125;
+}
+
+/* .button-holder > * {
+    margin: 10px;
+} */
